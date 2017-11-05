@@ -1,13 +1,15 @@
 package com.learn.abstractclass;
 
-public class AbstractClass {
+public abstract class AbstractClass {
 
 	public int calSuqare(int a)
 	{
+		System.out.println("SQUARE INPUT VALUE IS ::"+a);
 		int square = a*a;
+		System.out.println("SQUARE VALUE IS :: "+square);
 		return square;
 	}
-	public int calCube(int b);
+	public abstract int calCube(int b);
 	
 	
 }
