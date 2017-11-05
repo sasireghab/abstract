@@ -1,9 +1,11 @@
 package com.learn.abstractclass;
-
+/*
+ * This is the calling class
+ */
 public class MainClass {
 
 	public static void main(String[] args) {
-
+//create object for the class
 		SquareClass sc = new SquareClass();
 		int result = sc.calSuqare(5);
 		System.out.println("SQUARE RESULT VALUE IS ::"+result);
